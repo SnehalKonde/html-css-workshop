@@ -1,0 +1,42 @@
+.margin(@top,@right,@bottom,@left) {
+	@margin : @top @right @bottom @left;
+}
+.margin(@marginSize)
+{
+	margin : @marginSize, @marginSize, 0% ,@marginSize;
+}
+.padding(@left,@right){
+	padding-left: @left;
+	padding-right: @right;
+}
+.padding(@top,@right,@bottom,@left) {
+	padding: @top @right @bottom @left;
+}
+.border-radius {
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.display(@value) {
+	display: @value;
+}
+.size(@width,@height) {
+	width : @width;
+	height: @height;
+}
+.fontStyle {
+	font-family: @font-f1;
+	font-size: @f-size;
+}
+.font(@size,@color,@family,@wight) {
+	font-size: @size;
+	color: @color;
+	font-family: @family;
+	font-weight: @wight;
+}
+.predefinedFont {
+	font-family: robotolight;
+	font-size: 19px;
+}
+.gradient {
+	background: linear-gradient(to bottom, #FFFFFF , #E4E4DE);
+}
